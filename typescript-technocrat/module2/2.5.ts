@@ -46,10 +46,12 @@
 
     const student = addCourseToStudent({name:"Alize", age: 25});
 
-    console.log(student); // Output: { name: 'Alize', age: 25, course: 'TypeScript' }
+    // console.log(student); // Output: { name: 'Alize', age: 25, course: 'TypeScript' }
     
+    const student2 = addCourseToStudent({name : "Khushbu"})
 
-
+    console.log(student2); // Output: { name: 'Khushbu', course: 'TypeScript'
+    
 
 
 
